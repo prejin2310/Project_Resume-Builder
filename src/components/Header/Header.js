@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Header.module.css';
-import resume from '../../assets/resume.svg'
+import job from '../../assets/resume.svg'
 
 const Header = () => {
   return (
@@ -10,7 +10,7 @@ const Header = () => {
             <p className={styles.heading}>Make your own resume <br/><span> Its free..</span> </p>
         </div>
         <div className={styles.right}>
-            <img src={resume} alt='Resume Job'/>
+            <img src={job} alt='Resume Job'/>
         </div>
     </div>
   )
