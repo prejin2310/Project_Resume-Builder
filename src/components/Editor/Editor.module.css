@@ -6,7 +6,7 @@
   flex-direction: column;
   gap: 30px;
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
-  padding-top: 5px;
+  padding-top: 1px;
   height: fit-content;
   margin: 0 auto;
 }
@@ -16,7 +16,7 @@
   gap: 15px;
   overflow-x: auto;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  padding: 20px;
+  padding: 10px;
 }
 
 .header::-webkit-scrollbar {
@@ -77,7 +77,7 @@
 }
 
 .chips .new {
-  color: #239ce2;
+  color: #3D1766;
   font-weight: bold;
   letter-spacing: 1px;
   cursor: pointer;

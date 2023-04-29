@@ -24,7 +24,9 @@ const Body = () => {
         [sections.workExp]: {
           id: sections.workExp,
           sectionTitle: sections.workExp,
-          details: [],
+          details: [{title:"Work",
+                     
+        }],
         },
         [sections.project]: {
           id: sections.project,
@@ -66,7 +68,7 @@ const Body = () => {
             <button>Download <Download/></button>
         </div>
         <div className={styles.main}>
-            <Editor sections={sections} information={resumeInformation}/>
+            <Editor sections={sections} information={resumeInformation} setInformation={setResumeInformation}/>
         </div>
     </div>
   )
