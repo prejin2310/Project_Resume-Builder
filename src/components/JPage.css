@@ -1,0 +1,75 @@
+
+.div{
+    background-color: #ECF2FF;
+}
+.jpage{
+    margin: 5%;
+    
+}
+
+.job-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    margin-bottom: 1rem;
+    display: inline-block;
+  }
+  
+  .job-card h3 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+  }
+  
+  .job-card p {
+    margin: 0.25rem 0;
+  }
+  
+  .job-card button {
+    display: inline-block;
+    background-color: #0077ff;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    margin-top: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .job-card button:hover {
+    background-color: #0066cc;
+  }
+  
+  .job-card a {
+    text-decoration: none;
+  }
+  
+  .job-card a button {
+    margin-right: 0.5rem;
+  }
+  
+  .job-card bold {
+    font-weight: bold;
+  }
+  
+
+  .horizontal-container {
+    display: flex; /* Set display property to flex */
+    align-items: center; /* Center items vertically */
+    gap: 10px;
+  }
+  
+  .horizontal-container label,
+  .horizontal-container p {
+    margin: 0; /* Remove default margin */
+  }
+
+
+  .icon {
+    display: flex; /* Enable flexbox on the icon container */
+    justify-content: space-between; /* Space out the three elements evenly */
+    align-items: center; /* Vertically center the elements */
+  }
+  
+  
